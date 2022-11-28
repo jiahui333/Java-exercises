@@ -15,19 +15,21 @@ public class Airplane {
         this.speed = speed;
     }
 
-    public void loadPassengers () {
-        if (currentNumberOfPassengers <= maxNumberOfPassengers) {
-            System.out.println("Airplane " + planIdentification + " loads " + currentNumberOfPassengers + " passengers.");
+    public void loadPassengers (int loadNumber) {
+        int totalNumberOfPassengers = currentNumberOfPassengers + loadNumber;
+        if (currentNumberOfPassengers <= maxNumberOfPassengers | ifFlying | totalNumberOfPassengers <= maxNumberOfPassengers) {
+            System.out.println("Airplane " + planIdentification + " loads " + loadNumber  + " passengers.");
         } else {
-            System.out.println("Loading failed. The number of passengers exceeds the capacity.");
+            System.out.println("Loading failed.");
         }
     }
 
-    public void unloadPassengers () {
-        if (!ifFlying) {
-            System.out.println("Airplane " + planIdentification + " unloads " + currentNumberOfPassengers + " passengers.");
+    public void unloadPassengers (int unLoadNumber) {
+        int totalNumberOfPassengers = currentNumberOfPassengers - unLoadNumber;
+        if (!ifFlying | totalNumberOfPassengers >= 0) {
+            System.out.println("Airplane " + planIdentification + " unloads " + unLoadNumber + " passengers.");
         } else {
-            System.out.println("Unloading failed. The plane is still flying.");
+            System.out.println("Unloading failed.");
         }
     }
 

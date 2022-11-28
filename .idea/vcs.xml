@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/2-java-if-arrays-loops" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/3-airport" vcs="Git" />
   </component>
 </project>
