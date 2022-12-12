@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/2-java-if-arrays-loops/2-java-if-arrays-loops.iml" filepath="$PROJECT_DIR$/2-java-if-arrays-loops/2-java-if-arrays-loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/3-airport/3-airport.iml" filepath="$PROJECT_DIR$/3-airport/3-airport.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-assignments.iml" filepath="$PROJECT_DIR$/.idea/Java-assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorTest/src/main/main.iml" filepath="$PROJECT_DIR$/CalculatorTest/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorTest/src/test/test.iml" filepath="$PROJECT_DIR$/CalculatorTest/src/test/test.iml" />
     </modules>
   </component>
 </project>
