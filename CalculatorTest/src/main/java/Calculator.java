@@ -1,3 +1,5 @@
+import Exceptions.DivideByZeroException;
+
 public class Calculator {
 
     public static double multiply(double num1, double num2) {
@@ -6,7 +8,7 @@ public class Calculator {
 
     public static double divide(double num1, double num2) throws ArithmeticException{
         if (num2 == 0) {
-            throw new ArithmeticException("Cannot be divided by 0");
+            throw new DivideByZeroException("Cannot be divided by 0 haha");
         }
         return num1/num2;
     }
